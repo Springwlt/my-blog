@@ -1,14 +1,31 @@
-# 现代操作系统史对我的启发，及我对各操作系统的评价
-
-　　今天在ThoughtWorks老师的带领下我所在的group与其他group share了一些我们对现代operating system的认识以及背景hostory，I think现代的主流operating system之间就像东汉末年三国的history，我说的不一定对，但我说的都是我的见解，希望能和大家进行 了communication。
-
-　　1969年在operating system史上出现了一件开天辟地的大事，unix由汤普森和里奇在贝尔实验室开发出来。从此拉开了operating system hostory上冷战的序幕。反映了各类operating system之间矛盾的渗透与转化，产生了一批咤叱风云的operating system。接下来让我们一起来缅怀history。
-1977年，加州伯克利大学的Bill Jy在获得Unix内核后，着手修改适合自己机器的版本，将其命名为BSD。1979年，推出了System V第七版UNIX，可以在个人computer上安装和运行。但是，它声明了版权，特别提到“不可对学生提供源码”。1984年，谭宁邦教授的x86架构的Minixoperating system的诞生。Personal evaluation：I think unix system有着称霸一方的hostory chance，但“不可对学生提供源码”这种做法我极力反对，其实青年人是最具有creativity的，假如他们可以把代码提供给我们share，那么今天也许他们会成为operating system的主流，而且他们一定会更加完善，更加prefect.  inspiration：只有我们不断的share才能成就更完美的自己。
-
-　　接着让我们一起走近MAC operating system，1984年1月，是第一个麦金塔operating system。至1997年，MAC system没有什么重大的创新改革，history给了MAC system机遇，成就了苹果system的prefect， 2000年1月，人们在San Francisco MacWorld的展览会上第一次看到了MAC OS X。MAC OS X采用了Darwin内核，Darwin内核是UNIX system的一个变种，当然具有UNIX类operating system所具有的高稳定性。2001年3月，MAC OS X 10.0 “Cheetah(印度豹)”如期摆上了销售柜台。同测试版相比，正式版修正了大量的错误，大大的增强了稳定性。2001年9月，MAC OS X 10.1“Puma(美洲狮)”发布。这个版本主要是修正了MAC OS X 10.0中的Bug，它比MAC OS X 10.0具有更快的运行速度，并且支持CD刻录和DVD播放。 2002年MAC OS X 10.2 Jaguar(美洲虎)发布。Jaguar是MAC OS X的一次重大升级，它修正了MAC OS X中的数以百计的小错误，大大提高了系统的稳定性，提升了系统的运行速度，还增加了一些新的特性。大多数人认为MAC OS X 10.2才是第一款真正可用的MAC OS X，同时MAC OS X 10.2 Jaguar还是第一款用开发代号来命名的MAC操作系统，并且MAC OS X 10.2 Jaguar是最后一款把微软的IE作为默认网络浏览器的MAC operating system。2004年发布的MAC OS X 10.3 Panther(黑豹)对MAC OS X进行了难以置信的更新，很多人认为它是到目前为止最有意思的MAC OS X更新。Panther增加了很多新的特性。Personal evaluation：只有不断创新发展才能紧跟时代的步伐，MAC system在后期不断的发展innovationn，成就了今天的地位，I thank如果MAC system如果在后期继续保持这种随应时代的步伐，那么不就以后不久就可以分得windos system地盘上的半壁江山。 inspiration：人生假如我们过去很无为，只有我们以后勇于发现与改变，我们依旧可以成就prefect。
-
-　　最后我们来看windos的world。Windows是由微软在1983年11月宣布，并在两年后（1985年11月）发行的。Windows版本2.0是在1987.11正式在市场上推出的。该版本对使用者interface做了一些改进。 Windows 7于2009年10月22日在美国发布，于2009年10月23日下午在中国正式发布。Windows 7 的设计主要围绕五个重点——针对笔记本电脑的特有design；基于应用服务的design；用户的个性化；视听娱乐的优化；用户易用性的新引擎。2012年10月26日，Windows8在美国正式推出。Windows 8支持来自Intel、AMD和ARM的芯片架构，被应用于个人computer和平板computer上，尤其是移动触控电子设备，如触屏.(注：没有详尽罗列）Personal evaluation：windos system顺应时代的发展紧跟时代的步伐，虽然许多地方不如MAC system完美，但我们不可磨灭它对现代操作系统做的贡献。 inspiration：我们要顺应时代的发展，做出有必要的改革，方可立足,要不断发现与完善自己。
-
-　　我觉得上完这节课，我学到的不仅仅是知识，更多的对事物的感知，我觉得以后的operating system应该时在云端进行操作的，它的速度更加快捷，使用更加方便。MAC system should在未来会挣得客户端系统一半的天下与windos system 分庭抗礼。Unix系统依旧会是服务器端的一方霸主。其实我们每个人自己就是一个操作系统，那么怎样完善自己的操作系统，值得我们每个人思考，尤其是学习技术的我们。只有我们不断的完善自己的软硬件，才能使以后精彩。参加ThoughtWork的培训我不仅想向老师学写代码，更希望学会写人生的代码。
-
-　　以上属于个人见解希望各位提出different见解，欢迎各位留言，谢谢。
+                                        #对git的安装及其使用心得
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
+Git是一个开源的分布式版本控制系统，用以有效、高速的处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今天在thoughtworker 老师的带领下我学习及安装使用git这个软件，期间经历过无数次困难与挫折，
+ 我想把我所遇到的问起及解决方法告诉给大家，供大家参考学习。<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用给git之前最好先建议不要健在好home目录下最好也不要建在桌面，应该先建一个projects目录下面在建一个目录。
+如果你此前已经犯了上面的错误，不要想着卸载git这是行不通的，要进入git所在的目录，注意使用ls -al查看，因为。
+git目录默认是隐藏文件，如果在桌面上，你发现你执行了rm -rf .git文件发现图标依旧在，请关机重启。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;接下来我们需要配置git的环境.1打开https://github.com/ 2.点击help 3.点击 set up git.执行一下命令：<p>
+（1）git config --global user.name "YOUR NAME"     //填写你的用户名。
+（2）git config --global user.email "YOUR EMAIL ADDRESS"    //填写你的电子邮箱 
+接下来配置ssh.
+在上个页面上找Connecting over SSH点击generate SSH keys将进入ssh的配置页面。执行一下命令配置ssh.
+(1)ls -al ~/.ssh
+(2)ssh-keygen -t rsa -C "your_email@example.com"   //填写你的电子邮箱地址
+(3)eval "$(ssh-agent -s)"
+(4)ssh-add ~/.ssh/id_rsa
+(5)sudo apt-get install xclip
+(6)xclip -sel clip < ~/.ssh/id_rsa.pub
+接下来回到github.com.在你点击用户名右边第三个按钮设置ssh点击ssh.把生成的连接黏贴进去，
+使用ssh连接以后如果以后上传修改文件就方便多啦．
+在github上，上传文件有两种方式，第一种可以直接写好以后黏贴到github的网页上，（不建议使用）第二种方式就是下载以Atom软件。
+点击加号创建工程，然后创建git库，输入git init。
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;连接atom,输入 atom README.md接着执行下面命令
+git add README.md   //将add README.md添加到缓存区
+git commit -m "first commit"  //第一次进行提交
+git remote add origin git@github.com:Springwlt/LuckStatr1.git  //把git与git的远程服务台连接
+git push -u origin master   //进行提交
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过 git add 文件名命令 可以把文件加入到缓存区，通过git status 命令 可以查看缓存去的内容，通过 git commit -a -m "说明"
+命令，可以一次行添加多个文件，“说明”主要是加注释的，可有可无。<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面我介绍一下学习git的两个网站：This is an http://try-git.codefordream.com/（中文版） This is an https://try.github.io/levels/1/challenges/1（英文版）　
