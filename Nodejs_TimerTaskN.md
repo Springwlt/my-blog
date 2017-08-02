@@ -1,5 +1,4 @@
-###Nodejs  定时任务
-- 可是使用中间件node-schedule来实现定时任务
+#Nodejs  定时任务
 ###  确定时间执行任务
 ```javascript
      var schedule = require("node-schedule");
@@ -66,3 +65,4 @@ var rule = new schedule.RecurrenceRule();
       　　console.log(c);
 　　});
 ```
+ 参考地址；http://www.cnblogs.com/ajun/p/3548259.htmls
