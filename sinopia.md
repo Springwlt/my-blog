@@ -41,56 +41,55 @@ $ sinopia
 
 - config.yaml配置文件
 ```javascript
-#
-# This is the default config file. It allows all users to do anything,
-# so don't use it on production systems.
-#
-# Look here for more config file examples:
-# https://github.com/rlidwka/sinopia/tree/master/conf
-#
 
-# path to a directory with all packages
+ This is the default config file. It allows all users to do anything,
+so don't use it on production systems.
+
+Look here for more config file examples:
+https://github.com/rlidwka/sinopia/tree/master/conf
+
+
+ path to a directory with all packages
 storage: ./storage  //npm包存放的路径
 
 auth:
   htpasswd:
     file: ./htpasswd   //保存用户的账号密码等信息
-    # Maximum amount of users allowed to register, defaults to "+inf".
-    # You can set this to -1 to disable registration.
+     Maximum amount of users allowed to register, defaults to "+inf".
+     You can set this to -1 to disable registration.
     max_users: -1  //默认为1000，改为-1，禁止注册
 
-# a list of other known repositories we can talk to
+a list of other known repositories we can talk to
 uplinks:
   npmjs:
     url: http://registry.npm.taobao.org/  //默认为npm的官网，由于国情，修改 url 让sinopia使用 淘宝的npm镜像地址
     
 packages:  //配置权限管理
   '@*/*':
-    # scoped packages
+    scoped packages
     access: $all
     publish: $authenticated
 
   '*':
-    # allow all users (including non-authenticated users) to read and
-    # publish all packages
-    #
-    # you can specify usernames/groupnames (depending on your auth plugin)
-    # and three keywords: "$all", "$anonymous", "$authenticated"
+     allow all users (including non-authenticated users) to read and
+     publish all packages
+    
+     you can specify usernames/groupnames (depending on your auth plugin)
+     and three keywords: "$all", "$anonymous", "$authenticated"
     access: $all
 
-    # allow all known users to publish packages
-    # (anyone can register by default, remember?)
+     allow all known users to publish packages
+     (anyone can register by default, remember?)
     publish: $authenticated
 
-    # if package is not available locally, proxy requests to 'npmjs' registry
+     if package is not available locally, proxy requests to 'npmjs' registry
     proxy: npmjs
-
-# log settings
+  log settings
 logs:
   - {type: stdout, format: pretty, level: http}
-  #- {type: file, path: sinopia.log, level: info}
+    {type: file, path: sinopia.log, level: info}
 
-# you can specify listen address (or simply a port) 
+ you can specify listen address (or simply a port) 
 listen: 0.0.0.0:4873  ////默认没有，只能在本机访问，添加后可以通过外网访问。
 ```
 
