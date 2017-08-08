@@ -29,13 +29,13 @@
 
 - 透明代理: 它不但改编我们的请求信息，还会传送真实的IP地址。
 
-###免费代理采集
+### 免费代理采集
 
 1. [快代理](http://www.kuaidaili.com/)
 2. [代理66](http://www.66ip.cn/)
 3. [全网代理](http://www.goubanjia.com/free/gngn/index.shtml)
 
-###如何保证代理质量
+### 如何保证代理质量
 1. 进行ping
 2. 代理
 
@@ -49,7 +49,7 @@
     npm install superagent-proxy
     npm install superagent
 ```
-###Example
+### Example
 - proxy is ip agent address
 ```javascript
 var request = require('superagent');
